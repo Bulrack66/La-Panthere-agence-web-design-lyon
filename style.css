@@ -42,6 +42,7 @@ a:hover {
 .bloc .container {
     padding-left: 0;
     padding-right: 0;
+    position: relative;
 }
 
 .bloc-lg {
@@ -91,7 +92,7 @@ a:hover {
 }
 
 .texture-paper::before {
-    background: url("img/texture-paper.avif");
+    background-color: rgba(0, 0, 0, 0.5);
     background-size: 280px 280px;
 }
 
@@ -707,6 +708,7 @@ p {
 h2 {
     font-size: 22px;
     line-height: 1.4em;
+    font-weight: bold;
 }
 
 h3 {
@@ -753,7 +755,7 @@ h4 {
 }
 
 .black-background {
-    background-color: rgba(165, 147, 99, 0.7);
+    background-color: rgba(0, 0, 0, 0.7);;
     padding: 40px 40px 40px 40px;
 }
 
@@ -776,6 +778,7 @@ h4 {
 
 .tc-white {
     color: #F3976C!important;
+    font-weight: bold;
 }
 
 .btn-atomic-tangerine {
@@ -824,6 +827,12 @@ h4 {
 .bg-presentation {
     background-image: url("img/image-de-presentation.avif");
 }
+
+.col-xs-12.col-md-8.col-md-offset-2.text-center > p {
+    font-size: 15px;
+    font-weight: bold;
+    font-style: italic;
+  }
 
 @media (max-width: 1024px) {
     .bloc {
